@@ -14,5 +14,6 @@
    echo("<br/> You will receive the bill on ".$_SESSION["email"]);
    echo("<br/> You will receive the message on ".$_SESSION["contact"]." before deleivery");
    echo("<br/> <a href='logout.php'> Logout? </a> <br/>"); 
+   //github
 
 ?>
