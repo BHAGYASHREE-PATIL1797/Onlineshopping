@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link href="bootstrap.min.css" rel="stylesheet" />
+    <script src="bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <title></title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+                <form action="" method="get">
+                    <div class="form-group">
+                        <label for="uid">UID : </label>
+                        <input type="text" name="uid" id="uid" class="form-control form-control-lg" />
+                    </div>
+                    <div class="form-group">
+                        <label for="pwd">PWD : </label>
+                        <input type="text" name="pwd" id="pwd" class="form-control form-control-sm" />
+                    </div>
+                    <!-- <div class="form-check">
+                        <label class="form-check-label">
+                            <input type="checkbox" name="opt1" class="form-check-input" />
+                            Remember Me
+                        </label>
+                    </div> -->
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" name="opt1" id="opt1" class="custom-control-input" />
+                        <label for="opt1" class="custom-control-label">Remember Me</label>
+                    </div>
+                    <div class="custom-control">
+                        <label for="city">Select City : </label>
+                        <select name="city" id="city" class="custom-select">
+                            <option>Pune</option>
+                            <option>Mumbai</option>
+                            <option>Banagalore</option>
+                        </select>
+                    </div>
+                    <div>
+                        <input type="button" value="LOGIN" class="btn btn-primary btn-lg" />
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-3"></div>
+        </div>
+    </div>
+</body>
+</html>
